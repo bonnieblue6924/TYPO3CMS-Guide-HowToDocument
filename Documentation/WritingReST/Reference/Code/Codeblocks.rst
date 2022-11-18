@@ -9,6 +9,17 @@
 Code blocks with syntax highlighting
 ====================================
 
+The :rst:`code-block` directive allows you to quickly insert blocks of
+code inline into your ReST files. They should be used for quick inline examples.
+
+The drawbacks of code blocks are that it is hard to apply automatic code
+formatting or checks. This can lead to syntactically incorrect examples which
+might frustrate readers. For long or complex code examples we therefore suggest
+to use :ref:`code includes (literalinclude) <literalinclude>`.
+
+Very elaborate examples can be kept in their own example extension and our
+automatic `codesnippet tool <https://github.com/TYPO3-Documentation/codesnippet>`__
+can be used to auto-generate excerpts.
 
 ..  _codeblock-quick-reference:
 
@@ -772,59 +783,6 @@ zephir \|
 `Sphinx <http://www.sphinx-doc.org/en/stable/>`__ uses `Pygments
 <http://pygments.org/>`__ for highlighting. On a machine that has Pygments
 installed the command `pygmentize -L` will list all available lexers.
-
-Literalinclude
-==============
-
-A drawback of code blocks is that most editors cannot properly highlight or
-indent code within code blocks. The directive :rst:`literalinclude` enables you
-to store longer code blocks in an external file with the proper file extension.
-
-The :rst:`literalinclude` directive imports the file and displays its content as
-code block.
-
-
-..  tabs::
-
-    ..  group-tab:: Source (rst)
-
-        ..  code-block:: rst
-            :caption: Documentation/SiteConfiguration/Index.rst
-
-            ..  literalinclude:: /CodeSnippets/LiteralIncludes/example.yaml
-                :language: yaml
-                :emphasize-lines: 5,10-13
-                :linenos:
-
-    ..  group-tab:: Output
-
-        ..  literalinclude:: /CodeSnippets/LiteralIncludes/example.yaml
-            :language: yaml
-            :emphasize-lines: 5,10-13
-            :linenos:
-
-Literal includes can even be used to render the difference between files,
-without having to create a diff file first:
-
-..  tabs::
-
-    ..  group-tab:: Source (rst)
-
-        ..  code-block:: rst
-            :caption: Documentation/SiteConfiguration/Index.rst
-
-            ..  literalinclude:: /CodeSnippets/LiteralIncludes/example.yaml
-                :diff: /CodeSnippets/LiteralIncludes/example_de.yaml
-
-    ..  group-tab:: Output
-
-        ..  literalinclude:: /CodeSnippets/LiteralIncludes/example.yaml
-            :diff: /CodeSnippets/LiteralIncludes/example_de.yaml
-
-
-See also `literalinclude directive
-<http://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#directive-literalinclude>`__.
-
 
 ..  _codeblocks-placeholders:
 
