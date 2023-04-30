@@ -5,15 +5,12 @@
 .. _docs-official-how-you-can-help:
 .. _how-to-contribute:
 
-
 ================
 How You Can Help
 ================
 
-
 Everyone can contribute to the TYPO3 documentation and contributions are
 very much appreciated.
-
 
 .. important::
 
@@ -32,7 +29,6 @@ any way, do not hesitate to click on "Edit on GitHub" and make
 the change yourself. See :ref:`docs-contribute-github-method` for
 a walkthrough.
 
-
 .. _how-you-can-help-fix-issues:
 
 Fix Issues
@@ -41,14 +37,10 @@ Fix Issues
 See :ref:`links-github-issues`. As a new contributor, specifically look at issues
 with the label :ref:`good first issue <github-good-first-issue>`.
 
-
-
 .. _how-you-can-help-review-pr:
 
 Review Pull Requests
 ====================
-
-*--* **new**, *added August 10, 2019*
 
 :ref:`Find an open pull request <github-pull-requests>` and review it.
 
@@ -62,8 +54,6 @@ Help in this area is very much appreciated!
 Write New Content
 =================
 
-*--* **new**, *added August 10, 2019*
-
 *  :ref:`Write missing content <links-github-issues>`.
 
 
@@ -72,8 +62,6 @@ Write New Content
 
 Add Diagrams
 ============
-
-*updated December 18, 2021*
 
 Often things can be conveyed more easily if visual aids like diagrams
 are used in conjunction with text.
@@ -97,19 +85,6 @@ Here are some examples:
 
 
 .. _how-you-can-help:
-
-Create Cheat Sheets
-===================
-
-*--* **new**, *added August 11, 2019*
-
-Look at the existing cheat sheets and check if they are up to date:
-
-*  `List of cheat sheets <https://docs.typo3.org/Home/CheatSheets.html>`__
-
-You can create further cheat sheets and add them to this list.
-
-
 
 Replace Outdated Images
 =======================
@@ -135,8 +110,6 @@ See :ref:`youtube-videos` for information on how to do this.
 Review Manuals
 ==============
 
-*--* **new**, *added August 9, 2019*
-
 Pick a manual and start reviewing it.
 If you find something that needs fixing or something is missing, either fix it or write an
 issue for it, if you cannot make the changes yourself.
@@ -146,18 +119,6 @@ issue for it, if you cannot make the changes yourself.
    Usually, there is :ref:`one branch for each major TYPO3 version <t3home:usage-version-selector>`
    in a manual. Please focus your
    efforts mostly on the latest `main` branch, to get that up to date and ready!
-
-You can for example start with:
-
-*  :ref:`t3extbasebook:start` : This currently needs some work in all branches. Check if the text
-   is up to date and technically correct. Also, the text needs to be shortened in some parts and
-   language improvements are necessary (grammar, style). For the `main` branch, you can
-   `check off this review list <https://github.com/TYPO3-Documentation/TYPO3CMS-Book-ExtbaseFluid/issues/296>`__
-   once you have started reviewing. This makes it easier for other reviewers to just skip the parts
-   that are already ok.
-*  :ref:`t3coreapi:start`: The same applies as for :ref:`t3extbasebook:start` except that
-   "TYPO3 Explained" is generally in much better shape. Still, you can help by reviewing and
-   `checking off this review list <https://github.com/TYPO3-Documentation/TYPO3CMS-Reference-CoreApi/issues/537>`__
 
 .. tip::
 
@@ -175,9 +136,8 @@ You can check here to see the current review status of each manual:
 *  :ref:`t3docteam:overview-of-manuals-review`
 
 
-
 Teach
-=========================
+=====
 
 If you are already familiar with the workflow, you can help others
 to get started. Whenever you are at a `TYPO3 event <https://typo3.org/community/events/>`__
@@ -187,7 +147,7 @@ something missing or a problem in the documentation, help them make the
 necessary changes themselves.
 
 Motivate
-===============
+========
 
 Thank others for their contributions (for example on Slack, Twitter or personally).
 
