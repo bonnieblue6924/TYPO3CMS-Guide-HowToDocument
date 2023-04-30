@@ -8,6 +8,12 @@
 Tools for Editing reST
 ======================
 
+..  toctree::
+    :titlesonly:
+    :hidden:
+
+    GenerateCodeSnippets
+
 We will cover some IDEs here, that may be useful if you edit locally
 with the :ref:`docs-contribute-git-docker`.
 
@@ -150,5 +156,3 @@ Just place the cursor on the word, click alt-enter and then "Save to dictionary"
 
 For more information, see the `Spellchecking <https://www.jetbrains.com/help/phpstorm/spellchecking.html>`__
 PhpStorm page.
-
-
